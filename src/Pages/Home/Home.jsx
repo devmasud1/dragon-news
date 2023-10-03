@@ -18,7 +18,7 @@ const Home = () => {
           <LeftMenu></LeftMenu>
         </div>
         <div className="border-2 col-span-2">Dragon News Home</div>
-        <div className="border-2">
+        <div className="">
           <RightMenu></RightMenu>
         </div>
       </div>

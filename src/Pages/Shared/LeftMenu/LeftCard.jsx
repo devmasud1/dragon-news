@@ -6,21 +6,21 @@ const data = [
     img: "https://i.ibb.co/52RtgDv/2.jpg",
     title: "Bayern Slams Authorities Over Flight Delay to Club World Cup",
     type: "Sports",
-    date: "July 4, 2023",
+    date: "August 14, 2023",
   },
   {
     id: "2",
     img: "https://i.ibb.co/52RtgDv/2.jpg",
     title: "Bayern Slams Authorities Over Flight Delay to Club World Cup",
     type: "Sports",
-    date: "July 4, 2023",
+    date: "September 4, 2023",
   },
   {
     id: "3",
     img: "https://i.ibb.co/52RtgDv/2.jpg",
     title: "Bayern Slams Authorities Over Flight Delay to Club World Cup",
     type: "Sports",
-    date: "July 4, 2023",
+    date: "October 24, 2023",
   },
 ];
 
