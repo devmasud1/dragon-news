@@ -7,7 +7,7 @@ const RightAdvertise = () => {
   };
 
   return (
-    <div className="hero h-full space-y-6" style={backgroundImageStyle}>
+    <div className="hero  space-y-6" style={backgroundImageStyle}>
       <div className="hero-overlay bg-opacity-70"></div>
       <div className="hero-content text-center text-neutral-content">
         <div className="w-full">

@@ -18,8 +18,8 @@ const NavBar = () => {
   );
 
   return (
-    <div className="navbar bg-base-100 space-y-5">
-      <div className="navbar-start">
+    <div className="navbar bg-base-100 space-y-5 flex items-center justify-between my-4">
+      {/* <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
             <svg
@@ -44,9 +44,9 @@ const NavBar = () => {
             {navItem}
           </ul>
         </div>
-      </div>
-      <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">{navItem}</ul>
+      </div> */}
+      <div className="navbar-center ">
+        <ul className="menu menu-horizontal">{navItem}</ul>
       </div>
       <div className="navbar-end flex items-center gap-5">
         <label tabIndex={0} className="btn btn-ghost btn-circle avatar">

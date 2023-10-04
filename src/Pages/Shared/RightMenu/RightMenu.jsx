@@ -1,7 +1,6 @@
 import { BsFacebook, BsGoogle, BsInstagram } from "react-icons/bs";
 import { AiFillGithub, AiFillTwitterCircle } from "react-icons/ai";
 import RightCard from "./RightCard";
-import RightAdvertise from "./RightAdvertise";
 
 const RightMenu = () => {
   return (
@@ -33,10 +32,6 @@ const RightMenu = () => {
 
       <div>
         <RightCard></RightCard>
-      </div>
-
-      <div className="">
-        <RightAdvertise></RightAdvertise>
       </div>
     </div>
   );

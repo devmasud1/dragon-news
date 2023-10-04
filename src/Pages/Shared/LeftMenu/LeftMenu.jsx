@@ -1,14 +1,16 @@
 import { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
 import LeftCard from "./LeftCard";
 
-const LeftMenu = () => {
+const LeftMenu = ({ handleCategory }) => {
   const [category, setCategory] = useState([]);
+  const [activeCategory, setActiveCategory] = useState(null);
 
   useEffect(() => {
     fetch("/data/categories.json")
       .then((res) => res.json())
-      .then((data) => setCategory(data));
+      .then((data) => {
+        setCategory(data);
+      });
   }, []);
 
   return (
@@ -16,19 +18,23 @@ const LeftMenu = () => {
       <h4 className="text-xl font-semibold">All Category</h4>
 
       {category.map((item) => (
-        <NavLink
+        <button
           key={item.id}
-          to={`/category/${item.id}`}
-          style={{ display: "block", marginLeft: "10px" }}
-          className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "bg-slate-400" : ""
-          }
+          onClick={() => {
+            handleCategory(item.id);
+            setActiveCategory(item.id);
+          }}
+          className={`block px-4 py-2 w-full ${
+            activeCategory === item.id
+              ? "bg-blue-500 text-white"
+              : "bg-gray-200 text-gray-800"
+          }`}
         >
           {item.name}
-        </NavLink>
+        </button>
       ))}
 
-      <div>
+      <div className="hidden lg:block">
         <LeftCard></LeftCard>
       </div>
     </div>

@@ -3,15 +3,15 @@ import { MdOutlineDateRange } from 'react-icons/md';
 const data = [
   {
     id: "1",
-    img: "https://i.ibb.co/52RtgDv/2.jpg",
-    title: "Bayern Slams Authorities Over Flight Delay to Club World Cup",
+    img: "https://i.ibb.co/hxG29nr/unsplash-Eh-Tc-C9s-YXsw-9.png",
+    title: "‘Self-obsessed liar’: Meghan mocked for Mandela story",
     type: "Sports",
     date: "August 14, 2023",
   },
   {
     id: "2",
-    img: "https://i.ibb.co/52RtgDv/2.jpg",
-    title: "Bayern Slams Authorities Over Flight Delay to Club World Cup",
+    img: "https://i.ibb.co/CVg1Nrt/unsplash-Eh-Tc-C9s-YXsw-5.png",
+    title: "“Max Verstappen has plenty trophies” – Lando Norris wants $50 Million a year Dutch sensation to give him his trophy",
     type: "Sports",
     date: "September 4, 2023",
   },
