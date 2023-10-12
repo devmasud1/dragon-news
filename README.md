@@ -1,2 +1,2 @@
-## Live site:
-[see](https://rabid-form.surge.sh/)
+## Live link:
+[see site](https://dragon-news-pi.vercel.app/)
